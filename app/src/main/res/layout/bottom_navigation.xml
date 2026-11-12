@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal"
+    android:background="#181C1F">
+
+    <!-- HOME -->
+    <LinearLayout
+        android:id="@+id/navHome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_home"
+            android:duplicateParentState="true"
+            android:tint="@color/nav_item_color"
+            android:contentDescription="Home"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="12sp"
+            android:textColor="@color/nav_item_color"
+            android:duplicateParentState="true"/>
+
+    </LinearLayout>
+
+    <!-- CONTROL -->
+    <LinearLayout
+        android:id="@+id/navControl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_control"
+            android:duplicateParentState="true"
+            android:tint="@color/nav_item_color"
+            android:contentDescription="Control"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control"
+            android:textSize="12sp"
+            android:textColor="@color/nav_item_color"
+            android:duplicateParentState="true"/>
+
+    </LinearLayout>
+
+    <!-- SCHEDULE -->
+    <LinearLayout
+        android:id="@+id/navSchedule"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_schedule"
+            android:duplicateParentState="true"
+            android:tint="@color/nav_item_color"
+            android:contentDescription="Schedule"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textSize="12sp"
+            android:textColor="@color/nav_item_color"
+            android:duplicateParentState="true"/>
+
+    </LinearLayout>
+
+    <!-- LIGHT -->
+    <LinearLayout
+        android:id="@+id/navLight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_light"
+            android:duplicateParentState="true"
+            android:tint="@color/nav_item_color"
+            android:contentDescription="Light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="12sp"
+            android:textColor="@color/nav_item_color"
+            android:duplicateParentState="true"/>
+
+    </LinearLayout>
+
+    <!-- SETTINGS -->
+    <LinearLayout
+        android:id="@+id/navSettings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_settings"
+            android:duplicateParentState="true"
+            android:tint="@color/nav_item_color"
+            android:contentDescription="Settings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="12sp"
+            android:textColor="@color/nav_item_color"
+            android:duplicateParentState="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background">#F5F7FB</color>
+
+    <color name="surface">#FFFFFF</color>
+
+    <color name="primary">#5B5FEF</color>
+
+    <color name="primary_light">#E9EAFF</color>
+
+    <color name="text_primary">#171A21</color>
+
+    <color name="text_secondary">#747A88</color>
+
+    <color name="success">#2EAD72</color>
+
+    <color name="danger">#E25555</color>
+
+</resources>
