@@ -101,11 +101,6 @@ class ScheduleActivity : AppCompatActivity() {
                 // Already on the Schedule page.
             }
 
-        findViewById<LinearLayout>(R.id.navLight)
-            .setOnClickListener {
-                PageNavigation.open(this, LightActivity::class.java)
-            }
-
         findViewById<LinearLayout>(R.id.navSettings)
             .setOnClickListener {
                 PageNavigation.open(this, SettingsActivity::class.java)

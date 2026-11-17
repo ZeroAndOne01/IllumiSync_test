@@ -71,10 +71,6 @@ class MainActivity : AppCompatActivity() {
             navigateTo(ScheduleActivity::class.java)
         }
 
-        findViewById<LinearLayout>(R.id.navLight).setOnClickListener {
-            navigateTo(LightActivity::class.java)
-        }
-
         findViewById<LinearLayout>(R.id.navSettings).setOnClickListener {
             navigateTo(SettingsActivity::class.java)
         }

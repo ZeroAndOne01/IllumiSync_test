@@ -354,10 +354,6 @@ class ControlActivity : AppCompatActivity() {
             navigateWithTransition(ScheduleActivity::class.java)
         }
 
-        findViewById<LinearLayout>(R.id.navLight).setOnClickListener {
-            navigateWithTransition(LightActivity::class.java)
-        }
-
         findViewById<LinearLayout>(R.id.navSettings).setOnClickListener {
             navigateWithTransition(SettingsActivity::class.java)
         }

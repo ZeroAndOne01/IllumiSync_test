@@ -72,10 +72,6 @@ class SettingsActivity : AppCompatActivity() {
             PageNavigation.open(this, ScheduleActivity::class.java)
         }
 
-        findViewById<LinearLayout>(R.id.navLight).setOnClickListener {
-            PageNavigation.open(this, LightActivity::class.java)
-        }
-
         findViewById<LinearLayout>(R.id.navSettings).setOnClickListener {
             // Already on Settings.
         }
